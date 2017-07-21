@@ -192,9 +192,6 @@ pre {
         font-size: inherit;
         background: inherit;
     }
-    p {
-        margin: 0;
-    }
 }
 sup {
     vertical-align: super;
@@ -210,6 +207,9 @@ sup, sub {
         padding: 2px 5px;
         margin-left: 2px;
     }
+}
+pre p, ul p, ol p {
+    margin: 0;
 }
 ::-moz-selection { 
     background: $pcolor;
