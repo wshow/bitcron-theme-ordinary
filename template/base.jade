@@ -27,7 +27,7 @@ html
 					+posts.search_in_html()
 				.rightfoot
 					.credit
-						span= '©%s %s' %(site.now.year, site.title)
+						span= '©%s %s' %(site.now.year, site.title)+'. '+'%s篇文章' %(d.get_data(types="post", return_count=true, with_page=false))
 						span Theme 
 							a(href='https://blog.shuiba.co/bitcron-theme-ordinary') 「庸」
 							| by Shuibaco
