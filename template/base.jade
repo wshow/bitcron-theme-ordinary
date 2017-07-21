@@ -2,8 +2,7 @@ html
     head
 		+h.headers
 		+load('font')
-		+h.load('/template/style.scss')
-		+h.load('https://code.jquery.com/jquery-3.2.1.min.js')
+		+h.load('/template/style.scss', '//code.jquery.com/jquery-3.2.1.min.js')
 
 		block title
 			title= site.title
