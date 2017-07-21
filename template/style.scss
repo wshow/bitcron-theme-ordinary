@@ -262,7 +262,7 @@ nav {
         overflow: hidden;
         ul.info {
             float: left;
-            width: 23%;
+            width: 18%;
             border-top: 5px solid $mcolor;
             padding: 16px 1%;
             font-size: 0.8em;
@@ -279,7 +279,7 @@ nav {
         }
         .post {
             float: right;
-            width: 70%;
+            width: 75%;
             border-top: 5px solid $mcolor;
             padding: 22px 1%;
             header h2 {
@@ -468,7 +468,7 @@ footer {
 .doc_comments {
     margin-top: 0!important;
     border-top: 1px dotted $mcolor;
-    width: 70%;
+    width: 75%;
     padding: 0 1%!important;
     float: right;
 }
