@@ -2,7 +2,7 @@
 
 「庸」(Ordinary)是一个平淡无奇的 Bitcron 主题，基本实现了所有功能。
 
-# 特点
+## 特点
 
 - 网站标题采用中国风的「王汉宗超明体」（仅作用于繁体字）；
 - 支持 `分类` 和 `标签`；
@@ -13,7 +13,7 @@
 - 优化了评论框
 - 只有六个文件
 
-# 安装设置
+## 安装设置
 
 下载 template 文件夹，放入网站根目录下。
 
@@ -30,7 +30,9 @@
     + `$bgcolor`：background color 背景颜色
     + `$scolor`：second color 次于主要颜色的第二多被使用的颜色
 
-# 更新日志
+## 欢迎赞助
 
-- 2017-07-21 发布主题。修改文章宽度比例
-- 2017-07-22 调整文章 meta 部分空格；修改 footer 链接颜色；调整归档页面结构；移除“继续阅读”按钮
+<figure>
+    <img src="https://raw.githubusercontent.com/shuibaco/donate/master/alipay.jpg" alt="支付宝二维码" />
+    <figcaption>使用支付宝赞助</figcaption>
+</figure>
