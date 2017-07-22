@@ -29,6 +29,7 @@
     + `$pcolor`：point color 链接等
     + `$bgcolor`：background color 背景颜色
     + `$scolor`：second color 次于主要颜色的第二多被使用的颜色
+    + `$tcolor`：text color 文字颜色
 
 ## 欢迎赞助
 
