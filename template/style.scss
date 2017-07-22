@@ -232,7 +232,7 @@ header.site {
     .description {
         text-align: center;
         margin-top: 1em;
-        color: #ccc;
+        color: $scolor;
     }
 }
 
@@ -652,7 +652,6 @@ section.archive {
     width: 100%;
     height: 100vh;
     margin: 0 auto;
-    color: #999;
     font-family: Helvetica, 'Microsoft Yahei', STXihei, sans-serif;
     line-height: 1.8em;
     h1 {
@@ -679,7 +678,7 @@ section.archive {
 .labeltitle {
     text-align: center;
     color: $scolor;
-    background: #eee;
+    background: $mcolor;
 }
 
 /* Responsive ----------------------------------*/
