@@ -1,6 +1,6 @@
 ![screenshot.jpg](https://raw.githubusercontent.com/shuibaco/bitcron-theme-ordinary/master/screenshot.jpg)
 
-「庸」(Ordinary)是一个平淡无奇的主题，基本实现了所有功能。
+「庸」(Ordinary)是一个平淡无奇的 Bitcron 主题，基本实现了所有功能。
 
 # 特点
 
