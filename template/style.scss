@@ -285,12 +285,6 @@ nav {
             header h2 {
                 margin: 0 0 0.5em;
             }
-            a.more {
-                float: right;
-                margin-top: 5px;
-                border: 1px dotted;
-                padding: 0 5px;
-            }
             & .toc {
                 &:before {
                     content: '目录';
@@ -410,11 +404,11 @@ nav {
 .postpager {
     margin-top: 3em;
     border-top: 1px dotted $mcolor;
-    text-align: center;
     overflow: auto;
     padding: 1em 0;
     .pre {
         float: left;
+        width: 50%;
         &:before {
             content: '〈';
             padding-right: 5px;
@@ -422,6 +416,8 @@ nav {
     }
     .next {
         float: right;
+        width: 50%;
+        text-align: right;
         &:after {
             content: '〉';
             padding-left: 5px;
@@ -435,28 +431,41 @@ nav {
 /* Footer ----------------------------------*/
 footer {
     overflow: auto;
-    padding: 1em 0 2em;
+    padding: 0 0 2em;
     border-top: 5px solid $mcolor;
     & .leftfoot {
         float: left;
+        padding-top: 13px;
         .my_socials a {
             font-size: 20px;
-            padding: 0 3px;
+            padding: 0 3px 5px;
+            color: $scolor;
+            &:hover {
+                color: $pcolor;
+            }
         }
         #search_bar input {
             outline: none;
             border: 1px solid $mcolor;
             padding: 5px;
-            margin-top: 5px;
         }
     }
     & .rightfoot {
         float: right;
         text-align: right;
+        padding-top: 16px;
         span {
             display: block;
             font-size: 0.8em;
             line-height: 1.5em;
+        }
+        a {
+            color: $scolor;
+            border-bottom: 1px dotted;
+            padding-bottom: 2px;
+            &:hover {
+                color: $mcolor;
+            }
         }
     }
 }
@@ -611,9 +620,10 @@ section.archive {
     }
 }
 .tabs_set ul.horizontal {
-    border-bottom: 1px dotted $mcolor!important;
+    border-bottom: 5px solid $mcolor!important;
     li a {
         color: $scolor!important;
+        padding: 8px 10px!important;
         background: $mcolor;
         &:hover, &:active {
             color: inherit!important;
