@@ -25,20 +25,19 @@ block content
 				+h.paginator(style='mini', pre_label='〈', next_label='〉')
 
 		#tab
-			if posts.categories: section.categories
-				.name
-					h2= '分类'
-						span= '(%s)'%(d.get_data(types='folder', return_count=true, level=1, min_posts_count=1, render=true))
-				ul.list: for category in posts.categories: li
-					a(href=category.url)= category.title
-					span= '(%s)'%category.posts_count
+			.posts
+				if posts.categories: section.categories
+					.name
+						h2= '分类'
+							span= '(%s)'%(d.get_data(types='folder', return_count=true, level=1, min_posts_count=1, render=true))
+					ul.list: for category in posts.categories: li
+						a(href=category.url)= category.title
+						span= '(%s)'%category.posts_count
 
-			if site.tags: section.tags
-				.name
-					h2= '标签'
-						span= '(%s)'%site.tags.length
-				ul.list: for tag_name, tag_count in site.tags: li
-			    	a(href='/tag/{{tag_name}}')= tag_name
-			    	span= '(%s)'%tag_count
-
-
+				if site.tags: section.tags
+					.name
+						h2= '标签'
+							span= '(%s)'%site.tags.length
+					ul.list: for tag_name, tag_count in site.tags: li
+				    	a(href='/tag/{{tag_name}}')= tag_name
+				    	span= '(%s)'%tag_count
