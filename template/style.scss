@@ -134,6 +134,7 @@ hr {
 blockquote {
     padding: 1em;
     border: 16px solid $mcolor;
+    margin: 2em auto;
     &::before {
         color: $pcolor;
         content: '\201C';
