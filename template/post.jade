@@ -9,15 +9,13 @@ block content
 			li
 				i.fa.fa-clock-o
 				time(datetime= post.date.format('%Y-%m-%d'))= post.date.format('%Y.%m.%d')
-			li
-				if post.category
-					i.fa.fa-folder-open-o
-					a(href=post.category.url)= post.category.title
-			li
-				if post.tags
-					i.fa.fa-tags
-					for tag in post.tags
-						a.tag(href='/tag/{{tag}}')= tag
+			if post.category: li
+				i.fa.fa-folder-open-o
+				a(href=post.category.url)= post.category.title
+			if post.tags: li
+				i.fa.fa-tags
+				for tag in post.tags
+					a.tag(href='/tag/{{tag}}')= tag
 			li
 				i.fa.fa-eye
 				span= (post.visits or 0)
