@@ -154,6 +154,7 @@ table {
     border-spacing: 0;
     border: 16px solid $mcolor;
     width: 100%;
+    table-layout: fixed;
     word-wrap: break-word;
 }
 th, td {
@@ -295,11 +296,13 @@ nav {
                     float: right;
                     color: $mcolor;
                 }
-                margin: 3em auto;
                 background: $mcolor;
                 padding: 1em 1em 1em 0;
                 font-size: 0.9em;
                 line-height: 1.8em;
+                float: right;
+                margin-left: 1em;
+                margin-bottom: 1em;
                 ul {
                     padding: 0;
                     color: $scolor;
@@ -704,6 +707,10 @@ section.archive {
             width: 100%;
             padding: 0;
             border-top: none;
+            & .toc {
+                float: none;
+                margin-left: 0;
+            }
         }
     }
     .doc_comments {
