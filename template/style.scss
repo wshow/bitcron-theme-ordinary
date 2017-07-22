@@ -3,7 +3,7 @@ $mcolor: #eee;
 $pcolor: #ffbb00;
 $bgcolor: #fffaf2;
 $scolor: #bbb;
-$tcolor: #999;
+$tcolor: #aaa;
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -90,7 +90,7 @@ body {
     margin: 0 auto;
 }
 h1, h2, h3, h4, h5, h6 {
-    color: #444;
+    color: $tcolor;
     font-weight: bold;
     margin: 1.5em 0 1em;
     line-height: 1em;
@@ -557,6 +557,9 @@ footer {
         color: $pcolor;
         margin-right: -2em;
     }
+    &:hover {
+        opacity: 0.3;
+    }
 }
 .doc_comments .comments .comment .author small {
     float: left;
@@ -580,7 +583,7 @@ footer {
     margin: 0 0 0.7em!important;
 }
 .doc_comments .comments .comment .comment_content {
-    color: #333;
+    color: $tcolor;
     margin-left: 62px;
     margin-top: 21px;
 }
