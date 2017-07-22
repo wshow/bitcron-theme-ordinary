@@ -435,7 +435,7 @@ footer {
     border-top: 5px solid $mcolor;
     & .leftfoot {
         float: left;
-        padding-top: 13px;
+        padding-top: 14px;
         .my_socials a {
             font-size: 20px;
             padding: 0 3px 5px;
@@ -448,6 +448,7 @@ footer {
             outline: none;
             border: 1px solid $mcolor;
             padding: 5px;
+            margin-top: 5px;
         }
     }
     & .rightfoot {
