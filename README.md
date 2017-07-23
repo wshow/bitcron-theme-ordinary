@@ -93,6 +93,6 @@ $tcolor: #a5a4a2;
 
 ![pure.jpg](https://raw.githubusercontent.com/shuibaco/bitcron-theme-ordinary/master/colours/pure.jpg)
 
-## 欢迎使用支付宝赞助
+## 支付宝赞助
 
 ![alipay.jpg](https://raw.githubusercontent.com/shuibaco/donate/master/alipay.jpg)
