@@ -15,7 +15,7 @@
 
 ## 安装设置
 
-下载 template 文件夹，放入网站根目录下。
+[下载](https://github.com/shuibaco/bitcron-theme-ordinary) template 文件夹，放入网站根目录下。
 
 - **标题**：Dashboard → Site → Title / Sub Title
 - **每页显示文章数**：Dashboard → Common → Posts Per Page
