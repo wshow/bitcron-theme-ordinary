@@ -31,6 +31,58 @@
     + `$scolor`：second color 次于主要颜色的第二多被使用的颜色
     + `$tcolor`：text color 文字颜色
 
+## 配色方案
+
+### 奶昔（默认）
+
+```
+$mcolor: #eee;
+$pcolor: #ffbb00;
+$bgcolor: #fffaf2;
+$scolor: #bbb;
+$tcolor: #888;
+```
+
+### 单色
+
+```
+$mcolor: #e1e8ef;
+$pcolor: #3f4851;
+$bgcolor: #fafafa;
+$scolor: #aab7c4;
+$tcolor: #8592a0;
+```
+
+### 夏日
+
+```
+$mcolor: #cae5c5;
+$pcolor: #ff8b94;
+$bgcolor: #fff7f2;
+$scolor: #b7a9a3;
+$tcolor: #7c6e66;
+```
+
+### 入夜
+
+```
+$mcolor: #2d3547;
+$pcolor: #c5c7d6;
+$bgcolor: #030c21;
+$scolor: #515466;
+$tcolor: #7b7d91;
+```
+
+### 纯净
+
+```
+$mcolor: #f4f4f4;
+$pcolor: #e2e2e2;
+$bgcolor: #fdfdfd;
+$scolor: #bcbbb8;
+$tcolor: #a5a4a2;
+```
+
 ## 欢迎赞助
 
 <figure>
