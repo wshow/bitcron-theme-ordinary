@@ -3,7 +3,7 @@ $mcolor: #eee;
 $pcolor: #ffbb00;
 $bgcolor: #fffaf2;
 $scolor: #bbb;
-$tcolor: #aaa;
+$tcolor: #888;
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -633,13 +633,13 @@ section.archive {
     li a {
         color: $scolor!important;
         padding: 8px 10px!important;
-        background: $mcolor;
         &:hover, &:active {
             color: inherit!important;
         }
     }
     li.active a {
         color: inherit!important;
+        background: $mcolor;
     }
 }
 
