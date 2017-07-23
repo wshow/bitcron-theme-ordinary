@@ -93,9 +93,6 @@ $tcolor: #a5a4a2;
 
 ![pure.jpg](https://raw.githubusercontent.com/shuibaco/bitcron-theme-ordinary/master/colours/pure.jpg)
 
-## 欢迎赞助
+## 欢迎使用支付宝赞助
 
-<figure>
-    <img src="https://raw.githubusercontent.com/shuibaco/donate/master/alipay.jpg" alt="支付宝二维码" />
-    <figcaption>使用支付宝赞助</figcaption>
-</figure>
+![alipay.jpg](https://raw.githubusercontent.com/shuibaco/donate/master/alipay.jpg)
