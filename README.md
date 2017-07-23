@@ -33,7 +33,7 @@
 
 ## 配色方案
 
-### 奶昔（默认）
+### 奶昔 Yellow（默认）
 
 ```
 $mcolor: #eee;
@@ -43,7 +43,9 @@ $scolor: #bbb;
 $tcolor: #888;
 ```
 
-### 单色
+![yellow.jpg](https://raw.githubusercontent.com/shuibaco/bitcron-theme-ordinary/master/colours/yellow.jpg)
+
+### 单色 Mono
 
 ```
 $mcolor: #e1e8ef;
@@ -53,7 +55,9 @@ $scolor: #aab7c4;
 $tcolor: #8592a0;
 ```
 
-### 夏日
+![mono.jpg](https://raw.githubusercontent.com/shuibaco/bitcron-theme-ordinary/master/colours/mono.jpg)
+
+### 夏日 Summer
 
 ```
 $mcolor: #cae5c5;
@@ -63,7 +67,9 @@ $scolor: #b7a9a3;
 $tcolor: #7c6e66;
 ```
 
-### 入夜
+![summer.jpg](https://raw.githubusercontent.com/shuibaco/bitcron-theme-ordinary/master/colours/summer.jpg)
+
+### 入夜 Night
 
 ```
 $mcolor: #2d3547;
@@ -73,7 +79,9 @@ $scolor: #515466;
 $tcolor: #7b7d91;
 ```
 
-### 纯净
+![night.jpg](https://raw.githubusercontent.com/shuibaco/bitcron-theme-ordinary/master/colours/night.jpg)
+
+### 纯净 Pure
 
 ```
 $mcolor: #f4f4f4;
@@ -82,6 +90,8 @@ $bgcolor: #fdfdfd;
 $scolor: #bcbbb8;
 $tcolor: #a5a4a2;
 ```
+
+![pure.jpg](https://raw.githubusercontent.com/shuibaco/bitcron-theme-ordinary/master/colours/pure.jpg)
 
 ## 欢迎赞助
 
