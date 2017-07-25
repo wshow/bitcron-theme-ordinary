@@ -454,6 +454,11 @@ footer {
             border: 1px solid $mcolor;
             padding: 5px;
             margin-top: 5px;
+            background: $bgcolor;
+            &:hover, &:focus {
+                background: $mcolor;
+            }
+            @include transition(0.5s);
         }
     }
     & .rightfoot {
