@@ -13,9 +13,13 @@
 - 优化了评论框
 - 只有六个文件
 
+## 在线预览
+
+[theme-ordinary.bitcron.com](https://theme-ordinary.bitcron.com)
+
 ## 安装设置
 
-[下载](https://github.com/shuibaco/bitcron-theme-ordinary) template 文件夹，放入网站根目录下。
+从 [GitHub](https://github.com/shuibaco/bitcron-theme-ordinary) 下载 template 文件夹，放入网站根目录下。
 
 - **标题**：Dashboard → Site → Title / Sub Title
 - **每页显示文章数**：Dashboard → Common → Posts Per Page
@@ -25,11 +29,11 @@
 - **网站相关图片**：Dashboard → Images
 - **归档页面显示文章数**：archive.jade 第九行 `limit=30`
 - **网站颜色自定义**：style.scss 第一行开始的 `Customize field`。
-    + `$mcolor`：main color 主要颜色
-    + `$pcolor`：point color 链接等
-    + `$bgcolor`：background color 背景颜色
-    + `$scolor`：second color 次于主要颜色的第二多被使用的颜色
-    + `$tcolor`：text color 文字颜色
+    - `$mcolor`：main color 主要颜色
+    - `$pcolor`：point color 链接等
+    - `$bgcolor`：background color 背景颜色
+    - `$scolor`：second color 次于主要颜色的第二多被使用的颜色
+    - `$tcolor`：text color 文字颜色
 
 ## 配色方案
 
