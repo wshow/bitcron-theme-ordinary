@@ -7,7 +7,7 @@ MIT License: Copyright (c) 2017 Shuibaco
 */
 
 /* Customize field */
-$mcolor: #eee;
+$mcolor: #e8e8e8;
 $pcolor: #ffbb00;
 $bgcolor: #fffaf2;
 $scolor: #bbb;
@@ -120,7 +120,7 @@ a {
     @include transition(0.5s);
     color: $pcolor;
     &:hover {
-        color: $tcolor;
+        color: $mcolor;
     }
 }
 p, figure, pre, blockquote, table, ul, ol, hr {
@@ -284,7 +284,7 @@ nav {
                 border-bottom: 1px dotted;
                 padding-bottom: 2px;
                 &:hover {
-                    color: $tcolor;
+                    color: $mcolor;
                 }
             }
         }
@@ -295,6 +295,9 @@ nav {
             padding: 22px 1%;
             header h2 {
                 margin: 0 0 0.5em;
+            }
+            & .content a:hover {
+                color: $tcolor;
             }
             & .toc {
                 &:before {
@@ -484,7 +487,7 @@ footer {
             border-bottom: 1px dotted;
             padding-bottom: 2px;
             &:hover {
-                color: $tcolor;
+                color: $mcolor;
             }
         }
     }
@@ -685,7 +688,7 @@ section.archive {
         @include transition(0.5s);
         color: $pcolor;
         &:hover {
-            color: $tcolor;
+            color: $mcolor;
         }
     }
     p {
