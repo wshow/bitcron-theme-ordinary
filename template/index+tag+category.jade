@@ -34,11 +34,14 @@ block content
 					for tag in post.tags
 						a.tag(href='/tag/{{tag}}')= tag
 				li
+					i.fa.fa-file-word-o
+					span= ('{0:,}'.format(post.raw_content.words or 0))
+				li
 					i.fa.fa-eye
-					span= (post.visits or 0)
+					span= ('{0:,}'.format(post.visits or 0))
 				li
 					i.fa.fa-comment-o
-					span= (post.comments_count or 0)
+					span= ('{0:,}'.format(post.comments_count or 0))
 
 			.post
 				header: h2

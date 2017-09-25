@@ -27,7 +27,10 @@ html
 					+posts.search_in_html()
 				.rightfoot
 					.credit
-						span= '©%s %s' %(site.now.year, site.title)+'. '+'%s篇文章' %(d.get_data(types="post", return_count=true, with_page=false))
+						span
+							| &copy; {{site.now.year}} {{site.title}}
+							| {{'{0:,}'.format(d.get_data(types="post", return_count=true, with_page=false))}} 篇文章
+							| ({{'{0:,}'.format((d.get_data(types="post", return_count=false, with_page=false,fields=["raw_content"],limit=99999)|map(attribute="raw_content")|join('')).words)}}字)
 						span Theme 
 							a(href='https://blog.shuiba.co/bitcron-theme-ordinary') 「庸」
 							| by Shuibaco
